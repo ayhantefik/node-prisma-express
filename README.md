@@ -54,11 +54,13 @@ Hoppscotch
 
 POST /userLanguages
 
-{ 
+{
+
     "name": "Ayhan", 
     "email": "ayhan@mail.com", 
     "age": 32,
     "languages": "Swedish", "English"
+
 }
 
 ## Get users
