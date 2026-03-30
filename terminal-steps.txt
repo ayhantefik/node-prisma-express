@@ -1,0 +1,8 @@
+npm init -y
+npm i -D typescript ts-node nodemon
+npm i dotenv express
+npm i -D @types/express
+npm i prisma@6.17 @prisma/client@6.17
+npx prisma init
+
+(installed prisma from extensions)
