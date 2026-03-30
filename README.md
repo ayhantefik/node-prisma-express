@@ -3,8 +3,11 @@
 ## Tech stack
 
 Node.js
+<br/>
 Express
+<br/>
 Prisma ORM
+<br/>
 PostgreSQL
 
 ## How to run the server
@@ -14,6 +17,7 @@ PostgreSQL
 npm i -D typescript ts-node nodemon @types/node
 <br/>
 npm i express dotenv
+<br/>
 npm i prisma@6.17 @prisma/client@6.17
 
 ### Setup enviroment variables
@@ -25,8 +29,11 @@ DATABASE_URL="your_database_connection_string"
 ### Setup database
 
 npx prisma init
+<br/>
 npx prisma migrate dev --name table_name
+<br/>
 npx prisma generate
+<br/>
 npx prisma db seed
 
 ### Start the server
@@ -38,7 +45,9 @@ npm run dev
 You can test the API using:
 
 Postman
+<br/>
 Insomnia
+<br/>
 Hoppscotch
 
 ## Create user
@@ -48,7 +57,7 @@ POST /userLanguages
 { 
     "name": "Ayhan", 
     "email": "ayhan@mail.com", 
-    "age": 25,
+    "age": 32,
     "languages": "Swedish", "English"
 }
 
