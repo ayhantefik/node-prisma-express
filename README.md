@@ -12,6 +12,7 @@ PostgreSQL
 ### Install dependencies
 
 npm i -D typescript ts-node nodemon @types/node
+<br/>
 npm i express dotenv
 npm i prisma@6.17 @prisma/client@6.17
 
