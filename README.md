@@ -14,6 +14,8 @@ PostgreSQL
 
 ### Install dependencies
 
+npm init -y
+<br/>
 npm i -D typescript ts-node nodemon @types/node
 <br/>
 npm i express dotenv
